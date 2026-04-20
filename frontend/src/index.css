@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.react-flow__node {
+  border-radius: 16px;
+}
+
+.react-flow__attribution {
+  display: none;
+}
+.react-flow__controls {
+  background: #0f172a !important;
+  border: 1px solid #334155 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+  overflow: hidden;
+}
+
+.react-flow__controls button {
+  background: #0f172a !important;
+  color: #e2e8f0 !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+.react-flow__controls button:hover {
+  background: #1e293b !important;
+  color: #22d3ee !important;
+}
+
+.react-flow__controls button svg {
+  fill: #e2e8f0 !important;
+}
+
+.react-flow__controls button:hover svg {
+  fill: #22d3ee !important;
+}
+.react-flow__controls button path {
+  fill: #e2e8f0 !important;
+}
+
+.react-flow__controls button:hover path {
+  fill: #22d3ee !important;
+}
