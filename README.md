@@ -40,3 +40,21 @@ The app runs on `http://127.0.0.1:5173`.
 - SQLite database file is created automatically as `backend/flowhr.db`.
 - The simulation follows the first available outgoing edge. For decision nodes, it prefers the `yes` branch when present.
 - This is a strong prototype for internship submission and can be extended with auth, run history, import, or versioning.
+## Documentation
+
+This repository includes a detailed project report for FlowHR AI.
+
+- Project Report: [`docs/FlowHR_AI_Project_Report.docx`](docs/FlowHR_AI_Project_Report.docx)
+
+The report covers:
+- Abstract
+- Introduction
+- Objectives
+- Technology Stack
+- System Architecture
+- Functional Modules
+- API Endpoints
+- Validation and Simulation Logic
+- Strengths and Limitations
+- Future Enhancements
+- Conclusion
